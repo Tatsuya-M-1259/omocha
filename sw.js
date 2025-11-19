@@ -6,8 +6,8 @@ const CACHE_NAME = 'wareki-converter-v1';
 const urlsToCache = [
   './', // index.html
   './index.html',
-  './icon-192.png', // ステップ1で用意したアイコン
-  './icon-512.png' // ステップ1で用意したアイコン
+  './icon-192x192.png', // 🌟 ファイル名を修正
+  './icon-512x512.png' // 🌟 ファイル名を修正
 ];
 
 // Service Workerがインストールされたとき（初回アクセス時など）
